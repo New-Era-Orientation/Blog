@@ -6,7 +6,7 @@ import { Post, ContentBlock } from '../types';
 //import { tinHoc11Posts } from '../posts/tin-hoc-11';
 import { tinHoc12Posts } from '../posts/tin-hoc-12';
 //import { thuatToanPosts } from '../posts/thuat-toan-va-ctdl';
-import { deThiPosts } from '../posts/de-thi-dap-an';
+//import { deThiPosts } from '../posts/de-thi-dap-an';
 
 const allMarkdownStrings = [
  // ...tinHoc10Posts,

@@ -1,30 +1,18 @@
-import React from 'react';
+import React from "react";
 
-const Logo: React.FC<{ className?: string }> = ({ className = 'h-8 w-8' }) => {
+const Logo: React.FC<{ className?: string }> = ({ className = "h-10 w-10" }) => {
+  const baseUrl = import.meta.env.BASE_URL || "/";
   return (
-    <svg 
-      className={className}
-      viewBox="0 0 24 24" 
-      fill="none" 
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className={`flex items-center justify-center rounded-full border-2 border-gray-300 shadow-md bg-white overflow-hidden ${className}`}
       aria-label="New Era Orientation Logo"
     >
-      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.5"/>
-      <path 
-        d="M15.5 8.5L8.5 15.5" 
-        stroke="currentColor" 
-        strokeWidth="1.5" 
-        strokeLinecap="round" 
-        strokeLinejoin="round"
+      <img
+        src={`${baseUrl}logo.png`}
+        alt="Logo New Era Orientation"
+        className="object-cover h-full w-full transition-transform duration-300 hover:scale-105"
       />
-      <path 
-        d="M15.5 12V8.5H12" 
-        stroke="currentColor" 
-        strokeWidth="1.5" 
-        strokeLinecap="round" 
-        strokeLinejoin="round"
-      />
-    </svg>
+    </div>
   );
 };
 

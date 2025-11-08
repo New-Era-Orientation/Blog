@@ -6,7 +6,6 @@ import { tinHoc10Posts } from '../posts/tin-hoc-10';
 import { tinHoc11Posts } from '../posts/tin-hoc-11';
 import { tinHoc12Posts } from '../posts/tin-hoc-12';
 import { thuatToanPosts } from '../posts/thuat-toan-va-ctdl';
-import { vanPhongPosts } from '../posts/tin-hoc-van-phong';
 import { deThiPosts } from '../posts/de-thi-dap-an';
 import { huongDanPosts } from '../posts/huong-dan';
 
@@ -15,7 +14,6 @@ const allMarkdownStrings = [
   ...tinHoc11Posts,
   ...tinHoc12Posts,
   ...thuatToanPosts,
-  ...vanPhongPosts,
   ...deThiPosts,
   ...huongDanPosts,
 ];

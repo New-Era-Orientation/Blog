@@ -12,7 +12,7 @@ const TermsPage: React.FC = () => {
 
         <h2 className="text-2xl font-bold mt-8 mb-4">2. Sử dụng nội dung</h2>
         <p>
-          Tất cả nội dung, bao gồm bài viết, hình ảnh, tài liệu trên New Era Orientation đều thuộc bản quyền của chúng tôi hoặc được sưu tầm từ các nguồn công khai có ghi rõ nguồn.
+          Tất cả nội dung, bao gồm bài viết, hình ảnh, tài liệu trên New Era Orientation đều thuộc bản quyền của chúng tôi hoặc được sưu tầm từ các nguồn công khai.
         </p>
         <ul>
             <li>Bạn được phép xem, tải về và in nội dung cho mục đích cá nhân, phi thương mại.</li>
@@ -25,12 +25,12 @@ const TermsPage: React.FC = () => {
           Mặc dù chúng tôi luôn nỗ lực để đảm bảo thông tin trên website là chính xác và cập nhật, chúng tôi không cam kết hay bảo đảm về tính đầy đủ, chính xác tuyệt đối của nội dung. Mọi thông tin chỉ mang tính chất tham khảo. Chúng tôi không chịu trách nhiệm cho bất kỳ tổn thất nào phát sinh từ việc sử dụng thông tin trên website.
         </p>
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">4. Đóng góp tài liệu</h2>
+        {/* <h2 className="text-2xl font-bold mt-8 mb-4">4. Đóng góp tài liệu</h2>
         <p>
             Khi bạn đóng góp tài liệu cho New Era Orientation, bạn cam đoan rằng bạn có quyền sở hữu hoặc quyền sử dụng hợp pháp đối với tài liệu đó và đồng ý cho phép chúng tôi sử dụng, biên tập và đăng tải trên website.
-        </p>
+        </p> */}
 
-        <h2 className="text-2xl font-bold mt-8 mb-4">5. Thay đổi điều khoản</h2>
+        <h2 className="text-2xl font-bold mt-8 mb-4">4. Thay đổi điều khoản</h2>
         <p>
           Chúng tôi có quyền thay đổi các điều khoản này vào bất kỳ lúc nào. Các thay đổi sẽ có hiệu lực ngay khi được đăng tải trên website.
         </p>

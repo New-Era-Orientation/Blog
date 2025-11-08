@@ -45,7 +45,6 @@ Các bài toán liên quan đến hình học giải tích.
 
 ### Lớp 11
 Tìm kiếm tuần tự, tìm kiếm nhị phân
-Sắp xếp chèn, sắp xếp nổi bọt, sắp xếp nhanh, sắp xếp trộn
 Tính số fibonacci bằng đệ quy
 Tháp Hà Nội
 Tính lũy thừa a^n trong O(log n)

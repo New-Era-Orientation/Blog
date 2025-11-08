@@ -1,8 +1,7 @@
 // posts/thuat-toan-va-ctdl/index.ts
-import { post as quyHoachDong } from './algo001';
-import { post as dfs } from './algo002';
+//import { post as quyHoachDong } from './algo001';
 
-export const thuatToanPosts = [
-  quyHoachDong,
-  dfs,
-];
+
+//export const thuatToanPosts = [
+//  quyHoachDong,
+//];

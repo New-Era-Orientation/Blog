@@ -17,31 +17,34 @@ downloads: 0
 ---
 
 ## Thống kê các thuật toán từ lớp 3 đến lớp 12
+
 Lớp 3-5: 
 Cộng, trừ, nhân, chia (ngôn ngữ giới HSG gọi là Bignum)
 Tính trung bình cộng
 Sắp xếp đếm (counting sort)
 
-Lớp 6
+### Lớp 6
 Kiểm tra số nguyên tố. Phân tích một số ra thừa số nguyên tố.
 Liệt kê / đếm số ước của một số.
 Tính ước chung lớn nhất, bội chung nhỏ nhất
-Lớp 7
+
+### Lớp 7
 Tính số thập phân vô hạn tuần hoàn
 Thuật toán tìm kiếm tuần tự, thuật toán tìm kiếm nhị phân
 Thuật toán sắp xếp chọn
-Lớp 8
+
+### Lớp 8
 Thuật toán sắp xếp nổi bọt
 Thuật toán giải phương trình bậc nhất một ẩn, phương trình bậc hai một ẩn, hệ phương trình bậc nhất hai ẩn
 Thuật toán Euclide mở rộng tìm nghiệm nguyên của phương trình bậc nhất hai ẩn.
 
-Lớp 10
+### Lớp 10
 Phi hàm Euler
 Đổi hệ cơ số
 Tính hàm băm của một xâu
 Các bài toán liên quan đến hình học giải tích.
 
-Lớp 11
+### Lớp 11
 Tìm kiếm tuần tự, tìm kiếm nhị phân
 Sắp xếp chèn, sắp xếp nổi bọt, sắp xếp nhanh, sắp xếp trộn
 Tính số fibonacci bằng đệ quy
@@ -52,7 +55,7 @@ Cây nhị phân tìm kiếm.
 Quay lui để sinh hoán vị, chỉnh hợp, tổ hợp.
 Danh sách liên kết
 
-Lớp 12
+### Lớp 12
 Ngăn xếp, hàng đợi
 DFS/ BFS
 Tìm thành phần liên thông mạnh của đồ thị.

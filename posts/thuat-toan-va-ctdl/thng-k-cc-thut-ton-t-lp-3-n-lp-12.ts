@@ -4,7 +4,7 @@ export const post = `
 id: "thu482"
 slug: "thng-k-cc-thut-ton-t-lp-3-n-lp-12"
 title: "Thống kê các thuật toán từ lớp 3 đến lớp 12"
-excerpt: ""
+excerpt: "Thuật toán"
 author: "Bùi Việt Dũng"
 publishedDate: "2025-11-08"
 readTime: 10

@@ -111,7 +111,7 @@ downloads: 0
 
 ## Thống kê các thuật toán trong chương trình
 
-Lớp 3-5: 
+### Lớp 3-5: 
 Cộng, trừ, nhân, chia (ngôn ngữ giới HSG gọi là Bignum)
 Tính trung bình cộng
 Sắp xếp đếm (counting sort)
@@ -142,7 +142,7 @@ Sắp xếp chèn, sắp xếp nổi bọt, sắp xếp nhanh, sắp xếp trộ
 Tính số fibonacci bằng đệ quy
 Tháp Hà Nội
 Tính lũy thừa a^n trong O(log n)
-Thuật toán Karatsuba để nhân đa thức trong O(n^(log_3 (2))
+Thuật toán Karatsuba để nhân đa thức trong O(log2(3))
 Cây nhị phân tìm kiếm.
 Quay lui để sinh hoán vị, chỉnh hợp, tổ hợp.
 Danh sách liên kết

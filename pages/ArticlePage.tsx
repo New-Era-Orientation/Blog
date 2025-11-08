@@ -24,6 +24,44 @@ const slugify = (text: string) => {
     .replace(/-+$/, ''); // Trim - from end of text
 };
 
+// Parse markdown links [text](url) and convert to React elements
+const parseMarkdownLinks = (text: string): (string | React.ReactElement)[] => {
+  const parts: (string | React.ReactElement)[] = [];
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    // Add text before the link
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    // Add the link
+    const url = match[2];
+    const linkText = match[1];
+    const isExternal = url.startsWith('http://') || url.startsWith('https://') || url.startsWith('mailto:');
+    parts.push(
+      <a
+        key={key++}
+        href={url}
+        target={isExternal && !url.startsWith('mailto:') ? '_blank' : undefined}
+        rel={isExternal && !url.startsWith('mailto:') ? 'noopener noreferrer' : undefined}
+        className="text-cyan-600 dark:text-cyan-400 hover:underline"
+      >
+        {linkText}
+      </a>
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+  
+  return parts.length > 0 ? parts : [text];
+};
+
 
 const ArticlePage: React.FC = () => {
   const { slug } = useParams<{slug: string}>();
@@ -62,12 +100,12 @@ const ArticlePage: React.FC = () => {
         }
         return <h3 key={index} id={slugify(block.content)} className="text-2xl font-bold mt-6 mb-3 scroll-mt-20">{block.content}</h3>;
       case 'paragraph':
-        return <p key={index} className="my-4 leading-relaxed">{block.content}</p>;
+        return <p key={index} className="my-4 leading-relaxed">{parseMarkdownLinks(block.content)}</p>;
       case 'code':
         return <CodeBlock key={index} code={block.content} language={block.language} />;
       case 'list':
           return <ul key={index} className="list-disc list-inside my-4 space-y-2 pl-4">
-              {block.items.map((item, i) => <li key={i}>{item}</li>)}
+              {block.items.map((item, i) => <li key={i}>{parseMarkdownLinks(item)}</li>)}
           </ul>
       default:
         return null;

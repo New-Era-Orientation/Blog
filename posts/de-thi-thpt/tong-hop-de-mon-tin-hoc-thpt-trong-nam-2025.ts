@@ -5,7 +5,7 @@ slug: "tong-hop-de-mon-tin-hoc-thpt-trong-nam-2025"
 title: "Tổng hợp đề môn Tin học THPT trong năm 2025"
 excerpt: ""
 author: "NEO"
-publishedDate: "2025-11-08"
+publishedDate: "2025-11-09"
 readTime: 10
 categoryId: "de-thi-thpt"
 tags: '["on-thi-12","tai-lieu-on-tap-thpt"]'

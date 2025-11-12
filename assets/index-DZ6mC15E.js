@@ -105,7 +105,7 @@ tags: '["on-thi-12","tai-lieu-on-tap-thpt"]'
 level: "Cơ bản"
 grade: 12
 language: null
-attachments: '[{"name":"** Chủ đề 12A **","url":"https://cdn.discordapp.com/attachments/1426419588223995975/1426419736354357298/Chu_e_A_-_Ly_thuyet_-_NEO.pdf?ex=691406e6&is=6912b566&hm=e35933623613e9ed237e1984c8b62ea1c13039a311f6777fb000d9bc43287541&","type":"PDF","size":""}]'
+attachments: '[{"name":"** Chủ đề 12A **","url":"https://drive.google.com/file/d/1w5FfjzK4guFqaOnZjdcK_o7SghpXTg6i/view?usp=drive_link","type":"PDF","size":""}]'
 downloads: 0
 ---
 
@@ -132,7 +132,7 @@ tags: '["on-thi-12","tai-lieu-on-tap-thpt"]'
 level: "Cơ bản"
 grade: 12
 language: null
-attachments: '[{"name":"Chủ đề 12B","url":"https://cdn.discordapp.com/attachments/1426419588223995975/1434206476724998235/Chu_e_12B_-_Mang_may_tinh_-_NEO.pdf?ex=6914029e&is=6912b11e&hm=3e287d6c324158430231c79878b1183924a9339ae0d1387231a4f2da2c6fc201&","type":"PDF","size":""}]'
+attachments: '[{"name":"Chủ đề 12B","url":"https://drive.google.com/file/d/1Eml6uPZNto_DMLR_VEIUupTDSfh_-f-d/view?usp=drive_link","type":"PDF","size":""}]'
 downloads: 0
 ---
 
@@ -159,7 +159,7 @@ tags: '[]'
 level: "Cơ bản"
 grade: 10
 language: null
-attachments: '[{"name":"12D","url":"https://cdn.discordapp.com/attachments/1426419588223995975/1432041670463197245/Chu_e_12D_-_Giao_tiep_tren_khong_gian_mang_-_NEO.pdf?ex=69140b7c&is=6912b9fc&hm=808da43f92083fca1da512315ac699e6d6c00e12ea24c48ee2d9888e9a4353cc&","type":"PDF","size":""}]'
+attachments: '[{"name":"12D","url":"https://drive.google.com/file/d/10G6DQbC8lRtZIfJ7u7ocAJIGXt3pBc5W/view?usp=drive_link","type":"PDF","size":""}]'
 downloads: 0
 ---
 
@@ -186,7 +186,7 @@ tags: '[]'
 level: "Cơ bản"
 grade: 10
 language: null
-attachments: '[{"name":"**Chủ đề 12F**","url":"https://cdn.discordapp.com/attachments/1426419588223995975/1436713218507673660/Chu_e-12F-ap-an-NEO.pdf?ex=6913e6b4&is=69129534&hm=372af0450872e30df60db03fdf28c102915d8f85979ec38719a04b35489bd558&","type":"PDF","size":""}]'
+attachments: '[{"name":"**Chủ đề 12F**","url":"https://cdn.discordapp.com/attachments/1426419588223995975/1436713218507673660/Chu_e-12F-ap-an-NEO.pdf","type":"PDF","size":""}]'
 downloads: 0
 ---
 

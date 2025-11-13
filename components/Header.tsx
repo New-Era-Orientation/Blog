@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { ThemeContext } from '../App';
-import Logo from './Logo';
+import Logo from './Logo.tsx';
 import { categories } from '../data/meta';
 
 const SunIcon = () => (

@@ -2,7 +2,7 @@
   "name": "new-era-orientation",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://New-Era-Orientation.github.io/Blog/",
+  "homepage": "https://New-Era-Orientation.github.io/blog/",
   "type": "module",
   "scripts": {
     "dev": "vite",

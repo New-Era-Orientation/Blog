@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // Use relative base so the built site works when served from a subpath (GitHub Pages)
-      base: '/Blog/',
+      base: '/blog/',
       server: {
         port: 3000,
         host: '0.0.0.0',

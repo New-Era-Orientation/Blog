@@ -1,7 +1,7 @@
 import React from "react";
 
 const Logo: React.FC<{ className?: string }> = ({ className = "h-10 w-10" }) => {
-  const baseUrl = import.meta.env.BASE_URL || "/";
+  const baseUrl = (import.meta as any).env.BASE_URL || "/";
   return (
     <div
       className={`flex items-center justify-center rounded-full border-2 border-gray-300 shadow-md bg-white overflow-hidden ${className}`}
